@@ -1,0 +1,78 @@
+body {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh; /* Set the height to 100% of the viewport height */
+  }
+.image1{
+height: 150%;
+margin: auto;
+background-size: cover;
+
+
+}
+.carousel-items{
+    height: 100vh;
+    min-height: 300px;
+}
+.carousel-items img{
+    background-size: cover;
+    height: 50%;
+   top: 65%;
+}
+
+.carousel-caption{
+
+   top: 45%;
+   bottom: 45%;
+
+}
+.carousel-caption h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    margin-bottom: 15%;
+    letter-spacing: 6.5px;
+}
+.carousel-caption p{
+    width: 100%;
+    margin: auto;
+}
+.Brand-Name{
+    color: white;
+    font-size: larger;
+    text-shadow: 0 0 10px rgba(180, 184, 180, 0.8), 0 0 20px rgba(97, 99, 97, 0.8), 0 0 30px rgba(109, 150, 208, 0.8);
+    transition: color 0.5s ease-in;
+    transition-property: all;
+    list-style: none;
+}
+
+.Brand-Name:hover{
+    color: rgb(0, 0, 0);
+    transition: color 0.5s ease-out;
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link {
+    color: white;
+    transition: color 0.3s ease-in;
+    list-style: none;
+    /* background-color: aliceblue;*/
+    /* background-color: black; */
+}
+#navbarOpen{
+    margin-left: 66%;;
+}
+.navbar-toggler{
+    background-color: white;
+    display: block;
+    outline: 4.5px black;
+    border-radius: 12%;
+}
+.navbar-toggler:hover{
+    background-color: white;
+    cursor: pointer;
+}
